@@ -16,13 +16,13 @@
 }
 
 body {
-  font-family: var(--paragrapg-font 'PT', Serif);
+  font-family: var(--paragrapg-font 'PT Serif');
   max-width: 960 pixels;
   padding: 20 pixels;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--heading-font 'PT', Serif);
+  font-family: var(--heading-font 'PT Serif');
   color: var(--primary-color);
 }
 
