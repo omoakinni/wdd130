@@ -6,8 +6,8 @@
   --accent1-color: #edf6f9
   --accent2-color:#a2d2ff
 
-  --heading-font:  #57a3fa 'PT', Serif;
-  --paragrapg-font: 'PT' Serif;
+  --heading-font: 'PT, Serif', serif ;
+  --paragrapg-font: 'Arial', sans-serif ;
 
   --nav-background-color: #adb5bd
   --nav-link-color: #90e0ef
@@ -16,14 +16,14 @@
 }
 
 body {
-  font-family: 'PT Serif' Arial, Helvetica, sans-serif var (--paragrapg-font 'PT Serif', serif);
+  font-family: 'PT Serif', serif var (--paragrapg-font 'Arial', sans-serif);
   max-width: 960 pixels;
   padding: 20 pixels;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'PT Serif' Arial, Helvetica, sans-serif  var(--heading-font 'PT Serif', serif);
-  color: skyblue var(--primary-color);
+  font-family: 'PT Serif' Arial, Helvetica, sans-serif  var(--heading-font 'Arial', sans-serif);
+  color: #57a3fa var(--primary-color #57a3fa);
 }
 
 header {
@@ -36,7 +36,7 @@ p {
 }
 
 nav {
-  background-color: burlywood var (--nav-background-color);
+  background-color: #adb5bd var (--nav-background-color #adb5bd);
   font-size: 1.2rem;
   display: flex;
 }
