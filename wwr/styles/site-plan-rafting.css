@@ -1,4 +1,4 @@
-@import url('https://fonts.google.com/specimen/PT+Serif?query=PT');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 
 :root {
   --primary-color: #57a3fa
@@ -6,29 +6,29 @@
   --accent1-color: #edf6f9
   --accent2-color:#a2d2ff
 
-  --heading-font: 'PT', Serif;
+  --heading-font:  #57a3fa 'PT', Serif;
   --paragrapg-font: 'PT' Serif;
 
-  --nav-background-color:#adb5bd
+  --nav-background-color: #adb5bd
   --nav-link-color: #90e0ef
   ---nav-hover-link-color: #4cc9f0
   --nav-hover-background-color: #8d99ae
 }
 
 body {
-  font-family: var(--paragrapg-font 'PT Serif');
+  font-family: 'PT Serif' Arial, Helvetica, sans-serif var (--paragrapg-font 'PT Serif', serif);
   max-width: 960 pixels;
   padding: 20 pixels;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--heading-font 'PT Serif');
-  color: var(--primary-color);
+  font-family: 'PT Serif' Arial, Helvetica, sans-serif  var(--heading-font 'PT Serif', serif);
+  color: skyblue var(--primary-color);
 }
 
 header {
   padding: 20px;
-  background-color: var(--accent1-color);
+  background-color: beige var(--accent1-color);
 }
 
 p {
@@ -36,23 +36,23 @@ p {
 }
 
 nav {
-  background-color: var (--nav-background-color);
+  background-color: burlywood var (--nav-background-color);
   font-size: 1.2rem;
   display: flex;
 }
 
 nav a {
   display: block;
-  color: var(--nav-link-color);
+  color: gray var(--nav-link-color);
   text-decoration: none;
   padding: 1rem;
 }
 
 nav a:link, nav a:visited  {
-  color: var(--nav-link-color);
+  color: darkgray var(--nav-link-color);
 }
 
 nav a:hover {
-  color: var(--nav-hover-link-color);
-  background-color: var(--nav-hover-background-color);
+  color: steelblue var(--nav-hover-link-color);
+  background-color: grey var(--nav-hover-background-color);
 }
