@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
   padding: 20px;
-  background-color: beige var(--accent1-color);
+  background-color: #adb5bd var(--accent1-color #edf6f9);
 }
 
 p {
@@ -43,16 +43,16 @@ nav {
 
 nav a {
   display: block;
-  color: gray var(--nav-link-color);
+  color:#adb5bd var(--nav-link-color #90e0ef);
   text-decoration: none;
   padding: 1rem;
 }
 
 nav a:link, nav a:visited  {
-  color: darkgray var(--nav-link-color);
+  color: #adb5bd var(--nav-link-color #90e0ef);
 }
 
 nav a:hover {
-  color: steelblue var(--nav-hover-link-color);
-  background-color: grey var(--nav-hover-background-color);
+  color: #8d99ae var(--nav-hover-link-color #8d99ae);
+  background-color: #adb5bd var(--nav-hover-background-color #8d99ae);
 }
