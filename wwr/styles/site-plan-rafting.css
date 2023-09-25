@@ -1,22 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 
 :root {
-  --primary-color: #57a3fa
-  --secondary-color: #caf0f8
-  --accent1-color: #edf6f9
-  --accent2-color:#a2d2ff
+  --primary-color: #57a3fa;
+  --secondary-color: #caf0f8;
+  --accent1-color: #edf6f9;
+  --accent2-color:#a2d2ff;
 
   --heading-font: 'PT Serif', serif;
   --paragrapg-font: 'Arial', serif;
 
-  --nav-background-color: #adb5bd
-  --nav-link-color: #90e0ef
-  ---nav-hover-link-color: #4cc9f0
-  --nav-hover-background-color: #8d99ae
+  --nav-background-color: #adb5bd;
+  --nav-link-color: #90e0ef;
+  ---nav-hover-link-color: #4cc9f0;
+  --nav-hover-background-color: #8d99ae;
 }
 
 body {
-  font-family: 'PT Serif', serif var (--paragrapg-font 'Arial', serif);
+  font-family: 'PT Serif', serif  (var(--paragrapg-font)'Arial', serif);
   max-width: 960 pixels;
   padding: 20 pixels;
 }
@@ -36,7 +36,7 @@ p {
 }
 
 nav {
-  background-color: #adb5bd var (--nav-background-color #adb5bd);
+  background-color: #adb5bd var (var(--nav-background-color) #adb5bd);
   font-size: 1.2rem;
   display: flex;
 }
