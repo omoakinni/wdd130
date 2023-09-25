@@ -6,8 +6,8 @@
   --accent1-color: #edf6f9
   --accent2-color:#a2d2ff
 
-  --heading-font: 'PT Serif', serif ;
-  --paragrapg-font: 'Arial', serif ;
+  --heading-font: 'PT Serif', serif;
+  --paragrapg-font: 'Arial', serif;
 
   --nav-background-color: #adb5bd
   --nav-link-color: #90e0ef
@@ -16,13 +16,13 @@
 }
 
 body {
-  font-family: 'PT Serif', serif var (--paragrapg-font 'Arial', sans-serif);
+  font-family: 'PT Serif', serif var (--paragrapg-font 'Arial', serif);
   max-width: 960 pixels;
   padding: 20 pixels;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'PT Serif' Arial, Helvetica, sans-serif  var(--heading-font 'Arial', sans-serif);
+  font-family: 'PT Serif', serif var(--heading-font 'PT Serif', serif);
   color: #57a3fa var(--primary-color #57a3fa);
 }
 
