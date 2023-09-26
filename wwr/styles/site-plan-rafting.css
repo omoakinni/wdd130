@@ -11,24 +11,24 @@
 
   --nav-background-color: #adb5bd;
   --nav-link-color: #90e0ef;
-  ---nav-hover-link-color: #4cc9f0;
+  --nav-hover-link-color: #4cc9f0;
   --nav-hover-background-color: #8d99ae;
 }
 
 body {
-  font-family: 'PT Serif', serif  (var(--paragrapg-font)'Arial', serif);
+  font-family: 'PT Serif', serif var(--paragrapg-font)'Arial', serif;
   max-width: 960 pixels;
   padding: 20 pixels;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'PT Serif', serif var(--heading-font 'PT Serif', serif);
-  color: #57a3fa var(--primary-color #57a3fa);
+  font-family: 'PT Serif', serif var(--heading-font)'PT Serif', serif;
+  color: #57a3fa var(--primary-color) #57a3fa;
 }
 
 header {
   padding: 20px;
-  background-color: #adb5bd var(--accent1-color #edf6f9);
+  background-color: #adb5bd var(--accent1-color) #edf6f9;
 }
 
 p {
@@ -36,23 +36,23 @@ p {
 }
 
 nav {
-  background-color: #adb5bd var (var(--nav-background-color) #adb5bd);
+  background-color: #adb5bd var var(--nav-background-color) #adb5bd;
   font-size: 1.2rem;
   display: flex;
 }
 
 nav a {
   display: block;
-  color:#adb5bd var(--nav-link-color #90e0ef);
+  color:#adb5bd var(--nav-link-color) #90e0ef;
   text-decoration: none;
   padding: 1rem;
 }
 
 nav a:link, nav a:visited  {
-  color: #adb5bd var(--nav-link-color #90e0ef);
+  color: #adb5bd var(--nav-link-color) #90e0ef;
 }
 
 nav a:hover {
-  color: #8d99ae var(--nav-hover-link-color #8d99ae);
-  background-color: #adb5bd var(--nav-hover-background-color #8d99ae);
+  color: #8d99ae var(--nav-hover-link-color) #8d99ae;
+  background-color: #adb5bd var(--nav-hover-background-color) #8d99ae;
 }
