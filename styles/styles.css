@@ -70,11 +70,6 @@ aside img {
   width: 200px;
   height: auto;
 }
- aside h2 {
-    position: absolute;
-    top: 10px;
-    left: 20px;
-  }
 
 footer {
   margin-top: 1em;
