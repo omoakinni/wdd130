@@ -5,7 +5,7 @@
 }
 
 body {
-  font-size: 16px;
+  font-size: 15px;
   font-family: Roboto, Arial, sans-serif;
 }
 
@@ -30,10 +30,10 @@ main {
 }
 
 main img {
-  width: 150px;
+  width: 160px;
   height: auto;
-  border: 1px solid steelblue;
-  padding: 2px;
+  border: 2px solid steelblue;
+  padding: 1px;
   box-shadow: 0 0 30px gray;
   float: right;
   margin: 0 0 1rem 1rem;
