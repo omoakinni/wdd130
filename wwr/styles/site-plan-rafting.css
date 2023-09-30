@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto+Serif:opsz@8..144&display=swap');
 
 :root {
   --primary-color: #57a3fa;
@@ -7,7 +7,7 @@
   --accent2-color:#a2d2ff;
 
   --heading-font: 'PT Serif', serif;
-  --paragrapg-font: 'Arial', serif;
+  --paragrapg-font: 'Roboto Serif', serif;
 
   --nav-background-color: #adb5bd;
   --nav-link-color: #90e0ef;
