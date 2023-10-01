@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
   padding: 20px;
-  background-color: var(--accent1-color);
+  background-color: var(#7DBBFD);
 }
 
 p {
@@ -36,7 +36,7 @@ p {
 }
 
 nav {
-  background-color: var(--nav-background-color);
+  background-color: var(#a2d2ff);
   font-size: 1.2rem;
   display: flex;
 }
@@ -54,5 +54,5 @@ nav a:link, nav a:visited  {
 
 nav a:hover {
   color: var(--nav-hover-link-color);
-  background-color: var(--nav-hover-background-color);
+  background-color: var(#85AAD6);
 }
