@@ -9,10 +9,10 @@
   --heading-font: 'PT Serif', serif; 
   --paragrapg-font: 'Roboto Serif', serif;
 
-  --nav-background-color: #A2D2FF;
-  --nav-link-color: #F7F172;
-  --nav-hover-link-color: #B4F9FA;
-  --nav-hover-background-color: #85AAD6;
+  --nav-background-color: #a2d2ff;
+  --nav-link-color: #F0374E;
+  --nav-hover-link-color: #caf0f8;
+  --nav-hover-background-color: #7DBBFD;
 }
 
 body {
