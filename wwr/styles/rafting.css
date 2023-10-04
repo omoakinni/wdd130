@@ -68,7 +68,7 @@ header {
   transform: translate(-50%, -50%);
   text-align: unset;
   color: #fff;
-  font-family: var(--heading-font);
+  font-family: 'Montserrat', sans-serif;
   font-size: 28px;
   font-weight: 600;
 }
@@ -100,7 +100,7 @@ section {
 }
 
 section h2 {
-  font-family: var(--heading-font);
+  font-family: 'Montserrat', sans-serif;
   font-size: 36px;
   margin-bottom: 20px;
 }
