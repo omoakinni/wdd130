@@ -129,7 +129,7 @@ footer {
 }
 
 .sociallinks img {
-  display: block flex;
+  display: flex;
   height: 2%;
   width: 2%;
   font-size: 1px;
