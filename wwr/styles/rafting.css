@@ -70,21 +70,19 @@ header {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center;
+  object-position: right;
 }
 
 .hero h1 {
   position: absolute;
   top: 20%;
-  left: 50%;
-  background-position: 100px;
-  background-color: rgba(64, 58, 58, 0.7);
-  transform: translate(-50%, -50%);
-  text-align: unset;
+  left: 30%;
+  background-color: rgba(0, 0, 0, 0.1);
+  text-align: start;
   color: #fff;
   font-family: 'PT Serif', serif;
-  font-size: 28px;
-  font-weight: 600;
+  font-size: 30px;
+  font-weight: 100;
 }
 
 .hero article {
@@ -94,7 +92,7 @@ header {
   background-color: rgba(55, 49, 158, 0.7);
   padding: 20px;
   color: #fff;
-  width: 80%;
+  width: 100%;
   max-width: 750px;
 }
 
@@ -105,7 +103,7 @@ header {
 .hero article img {
   float: right;
   margin-left: 20%;
-  max-width: 30%
+  max-width: 150px
 }
 
 /* Section styles */
@@ -132,8 +130,4 @@ footer {
   color: #000;
 }
 
-.sociallinks a {
-  padding: 5px;
-  margin-left: 3px;
-  margin-right: 5px;
-}
+
