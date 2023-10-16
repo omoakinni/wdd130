@@ -78,6 +78,12 @@ margin-inline-start: 0px;
 margin-inline-end: 0px;
 padding-inline-start: 40px;
 scroll-margin-left: 50px;
+margin: 100px;
+}
+
+ul nav {
+  margin: 30px;
+  margin-bottom: 100px;
 }
 
 /* Hero styles */
@@ -149,7 +155,11 @@ section p {
   display: grid;
   justify-content: center;
 }
+/* Section 2 style*/
 
+.figurecaption {
+ text-align: center;
+}
 
 /* Footer styles */
 footer {
