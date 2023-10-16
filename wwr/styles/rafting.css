@@ -59,14 +59,18 @@ nav {
   margin: 1 1.25rem 0 1rem;
   border: 1px solid #000;
   height: 5%;
+  margin-bottom: 10px;
 }
 
 nav a {
-  display: grid;
+  display: flex;
+  justify-content: first baseline;
+  align-items: center;
   color: #6058ff;
   padding: 20px;
   text-decoration: none;
   margin-right: 1px;
+
 }
 
 ul {
@@ -78,12 +82,12 @@ margin-inline-start: 0px;
 margin-inline-end: 0px;
 padding-inline-start: 40px;
 scroll-margin-left: 50px;
-margin: 100px;
 }
 
 ul nav {
   margin: 30px;
   margin-bottom: 100px;
+  align-items: first baseline;
 }
 
 /* Hero styles */
@@ -174,6 +178,7 @@ footer {
  display: flex;
  margin: 3px;
  margin-left: 10px;
+ justify-content: flex-end;
 }
  
 .sociallinks img {
