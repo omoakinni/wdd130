@@ -64,7 +64,6 @@ nav {
 
 nav a {
   display: flex;
-  justify-content: baseline;
   align-items: center;
   color: #6058ff;
   padding: 20px;
