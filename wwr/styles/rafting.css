@@ -46,6 +46,7 @@ h1 {
   font-size: 1rem;
   font-family: var(--paragraph-font);
 }
+
 h2 {
   color: #3498db;
   text-align: center;
@@ -68,7 +69,6 @@ nav a {
   padding: 20px;
   text-decoration: none;
   margin-right: 1px;
-
 }
 
 ul {
