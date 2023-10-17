@@ -56,7 +56,7 @@ nav {
   justify-content: space-between;
   background-color: #fcf7f7;
   padding: 20px;
-  margin: 1 1.25rem 0 1rem;
+  margin: 1 1.0rem 0 1rem;
   border: 1px solid #000;
   height: 5%;
   margin-bottom: 10px;
@@ -64,7 +64,7 @@ nav {
 
 nav a {
   display: flex;
-  justify-content: first baseline;
+  justify-content: baseline;
   align-items: center;
   color: #6058ff;
   padding: 20px;
@@ -147,7 +147,6 @@ section {
 
 section p {
   line-height: 1.6;
-  text-align: start left;
   width: 100% ;
 }
 

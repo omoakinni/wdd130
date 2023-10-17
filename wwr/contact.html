@@ -1,10 +1,9 @@
-<!-- Today is 3rd of october 2023 -->
 <!DOCTYPE html>
 <html lang="en">
     <head>
        <meta charset="UTF-8">
        <meta name="viewport" content="=width=device-width, initial-scale=1.0">
-       <title>White Water Adventure - Contact Us - +234 803 886 5900</title>
+       <title>White Water Adventure - Contact Us -</title>
        <meta name="description"   content="The rafting site plan includes the site purpose, the target audience, branding information and a style guide for the course website project">
        <meta name="author" content="Akinlolu Ariyo">
        <link rel="stylesheet"  href="styles/rafting.css">
@@ -28,18 +27,35 @@
    <main>
      <h1>Contact Us</h1>
      <p>White Water Adventure is a White water rafting company providing you with the best experince in water rafting.</p>
-      <form>
-        <label for="name"> Name: </label>
+      <form action="#" method="post">
+        <label> Name:
         <input type="text" name="name" id="name" required>
+
         <label for="email">Email:</label>
         <input type="email" name="email" id="email" required>
-        <label for="phone">Phone:</label>
-        <input type="tel" name="phone" id="phone" required>
-        <label for="message">Message:</label>
-        <textarea name="message" id="message" cols="30" rows="10" required></textarea>
-        <input type="submit" value="Send">
+
+        <label> Purpose of Message:</label>
+        <label><input type="radio" name="purpose" value="General Inquiry" checked>General 
+          Inquiry</label>
+        <label><input type="radio" name="purpose" value="Reservation Question"> Reservation 
+          Question</label>
+        <label><input type="radio" name="Purpose" value="Website Suggestion"> Website 
+          Suggestion</label>  
+         
+        <label for="message"> Message </label>  
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <label><input type="checkbox" name="subscribe" value="yes"> Please subscribe me to the monthly newsletter</label>
+        <div class="item">
+          <input type="checkbox" id="subscribe">
+        </div>
+
+        <button type="submit"> Submit </button>
       </form>
-     
+     <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d206117.14214038284!2d3.1191421839865145!3d6.548028243182565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b2ae68280c1%3A0xdc9e87a367c3d9cb!2sLagos!5e1!3m2!1sen!2sng!4v1697544917438!5m2!1sen!2sng" 
+       width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+     </div>
    </main>
   <footer>
        <nav class="sociallinks">
