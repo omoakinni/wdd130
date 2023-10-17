@@ -44,7 +44,7 @@ header {
 
 h1 { 
   font-size: 1rem;
-  font-family: Acem, var(--paragraph-font);
+  font-family: var(--paragraph-font);
 }
 h2 {
   color: #3498db;
