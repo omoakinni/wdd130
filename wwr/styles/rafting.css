@@ -88,6 +88,25 @@ ul nav {
   align-items: first baseline;
 }
 
+form {
+  width: 650px;
+  margin: 2 auto;
+  padding: 3rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  background-color: #ffffffcb;
+  display: grid;
+}
+
+.employee-profiles{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.company-info{
+  display: flex;
+  justify-content: space-around;
+}
 /* Hero styles */
 .hero {
   position: relative;
