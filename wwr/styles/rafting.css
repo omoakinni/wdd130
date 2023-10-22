@@ -107,6 +107,8 @@ form {
   display: flex;
   justify-content: space-around;
 }
+
+
 /* Hero styles */
 .hero {
   position: relative;
