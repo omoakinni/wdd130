@@ -165,6 +165,7 @@ section {
 }
 
 section p {
+  display: flex;
   line-height: 1.6;
   width: 100% ;
 }
