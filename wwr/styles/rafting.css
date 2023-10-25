@@ -207,9 +207,10 @@ section p {
  text-align: center;
 }
 
-.cardimg{
+.card img{
   display: flex;
-  margin: 30px;
+  max-width: fit-content;
+  object-position: right;
 }
 
 /* Footer styles */
