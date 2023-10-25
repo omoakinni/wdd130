@@ -52,6 +52,12 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  display: flex;
+  text-align: center;
+  align-content: start;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -108,6 +114,23 @@ form {
   justify-content: space-around;
 }
 
+.trip {
+  display: flex;
+  align-content: space-between; 
+  margin-top: 60px;
+}
+
+.trip-desc{
+  display: flex;
+  text-align: left;
+}
+
+.product-gallary {
+  display: flex;
+  align-content: center;
+}
+
+
 
 /* Hero styles */
 .hero {
@@ -161,7 +184,7 @@ form {
 /* Section 1 styles */
 section {
   display: flex;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 section p {
@@ -182,6 +205,11 @@ section p {
 
 .figurecaption {
  text-align: center;
+}
+
+.cardimg{
+  display: flex;
+  margin: 30px;
 }
 
 /* Footer styles */
